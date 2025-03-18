@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMVRT vCard Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Enter Contact Information</h1>
+    <form>
+        <input type="text" id="org" placeholder="Company Name"><br>
+        <input type="text" id="name" placeholder="Name (First, Last)"><br>
+        <input type="text" id="phone" placeholder="Phone Number"><br>
+        <input type="email" id="email" placeholder="Email Address"><br>
+        <input type="text" id="address" placeholder="Address"><br>
+        <input type="url" id="website" placeholder="Website"><br>
+        <input type="text" id="note" placeholder="Notes"><br>
+        <button type="button" onclick="generateVCard()">Download vCard</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
